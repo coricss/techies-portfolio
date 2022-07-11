@@ -4,7 +4,7 @@ import styles from './AppFooter.module.css';
 
 const AppFooter = () => (
   <div className={styles.AppFooter+' fixed-bottom bg-dark'} data-testid="AppFooter">
-    <div className='text-white'>
+    <div className='container text-white'>
       <h1>Footer</h1>
     </div>
   </div>
