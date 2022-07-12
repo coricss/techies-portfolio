@@ -107,10 +107,6 @@
   color: #fff;
 }
 .services-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   height: 100%;
 }
 .landing-page-image {
