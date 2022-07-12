@@ -1,1 +1,6 @@
-.AppFooter {}
+.AppFooter {
+  background-color: #0d0c33;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
