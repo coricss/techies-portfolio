@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Link } from 'react-scroll';
 
 function App() {
   return (
@@ -22,9 +23,11 @@ function App() {
                     We are a team of developers who love to create websites at affordable prices.
                   </p>
                   <div className="landing-page-buttons mt-4">
-                    <button className="btn btn-outline-mint btn-lg w-50">
-                      Let's work together!
-                    </button>
+                    <Link to="contact" spy={true} smooth={true} duration={500}> 
+                      <button className="btn btn-outline-mint btn-lg w-50">
+                        Let's work together!
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
