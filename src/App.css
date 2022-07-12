@@ -87,11 +87,11 @@
 }
 .section-services {
   /* position: relative;
-  height: 870px;
+
   display: flex; */
+  height: 870px;
   margin-top: 130px;
   padding-top: 130px;
-  align-items: center;
   background-image: linear-gradient(to top, #04040f, #090924, #0d0c33);
   color: #fff;
 }
@@ -99,6 +99,7 @@
 .section-contact {
   position: relative;
   height:1000px;
+  padding-top: 130px;
   display: flex;
   align-items: center;
   background-color: #04040f;
