@@ -42,11 +42,10 @@ class AppHeader extends React.Component {
                   <div className={styles.Search}>
                     <form action="" className={styles.SearchForm+' position-relative'}>
                       <input type="text" placeholder="Search UptoDevs" className="form-control" />
-                      <button className={styles.SearchButton}>
-                        <i class='bx bx-search fs-4'></i>
+                      <button className={styles.SearchButton+' navbar-toggler'} >
+                        <i class='bx bx-search fs-4 navbar-toggler-icon'></i>
                       </button>
                     </form>
-                    
                   </div>
                 </li>
               </ul>

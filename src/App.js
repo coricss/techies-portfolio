@@ -5,6 +5,7 @@ import { Link } from 'react-scroll';
 function App() {
   return (
     <div className="App">
+      div
       <section id="home" className="section-home">
         <div className="container">
           <div className="row g-5">
@@ -23,7 +24,7 @@ function App() {
                     We are a team of developers who love to create websites at affordable prices.
                   </p>
                   <div className="landing-page-buttons mt-4">
-                    <Link to="contact" spy={true} smooth={true} duration={500}> 
+                    <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}> 
                       <button className="btn btn-outline-mint btn-lg w-50">
                         Let's work together!
                       </button>
@@ -122,7 +123,7 @@ function App() {
             </div>
   
             <div class="row g-3">
-              <div class="col-md-4 col-sm-12">
+              <div class="col-lg-4 col-sm-12">
                 <div class="p-3 service-wrapper border h-100 p-5">
                   <div className="services-item">
                     <div className='d-flex justify-content-center'>
@@ -141,7 +142,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-12">
+              <div class="col-lg-4 col-sm-12">
                 <div class="p-3 service-wrapper border h-100 p-5">
                   <div className="services-item">
                     <div className='d-flex justify-content-center'>
@@ -160,7 +161,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-12">
+              <div class="col-lg-4 col-sm-12">
                 <div class="p-3 service-wrapper border h-100 p-5">
                   <div className="services-item">
                     <div className='d-flex justify-content-center'>

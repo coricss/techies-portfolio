@@ -86,9 +86,11 @@
   color: #fff;
 }
 .section-services {
-  position: relative;
+  /* position: relative;
   height: 870px;
-  display: flex;
+  display: flex; */
+  margin-top: 130px;
+  padding-top: 130px;
   align-items: center;
   background-image: linear-gradient(to top, #04040f, #090924, #0d0c33);
   color: #fff;
