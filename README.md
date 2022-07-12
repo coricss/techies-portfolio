@@ -1,1 +1,1 @@
-# TECHIES - Web Solutions
+# UptoDevs - Web Solutions
