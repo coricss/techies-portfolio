@@ -87,9 +87,8 @@
   color: #fff;
 }
 .section-services {
-  /* position: relative;
-
-  display: flex; */
+  position: relative;
+  display: flex;
   height: 100%;
   margin-top: 130px;
   padding-top: 130px;
