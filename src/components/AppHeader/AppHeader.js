@@ -8,7 +8,7 @@ class AppHeader extends React.Component {
     return(
       <div className={styles.AppHeader+' fixed-top'} data-testid="AppHeader">
           <div className='container text-white d-flex justify-content-between align-items-center p-2'>
-            <a className='text-decoration-none text-white' href=''>
+            <a className='text-decoration-none text-white' href='/'>
               <div className='brand d-flex align-items-center'>
                 <div className='mx-2'>
                   <img src={window.location.origin + '/img/UptoDevs-logo.png'} className="" alt="brand-logo" width='40px'/>

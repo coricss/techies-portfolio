@@ -136,9 +136,11 @@ function App() {
                 <div class="p-3 service-wrapper border h-100 p-5">
                   <div className="services-item">
                     <div className='d-flex justify-content-center'>
-                      <button class="btn btn-outline-mint rounded-circle d-flex align-items-center justify-content-center p-2 mx-1">
-                        <i class='bx bxs-palette text-white fs-4' ></i>
-                      </button>
+                      <a className='text-decoration-none' href='/web-design'>
+                        <button class="btn btn-outline-mint rounded-circle d-flex align-items-center justify-content-center p-2 mx-1">
+                          <i class='bx bxs-palette text-white fs-4' ></i>
+                        </button>
+                      </a>
                     </div>
                     <div className='service-title'>
                       <h4 className="services-item-title text-white mt-3">Web Design</h4>
@@ -155,9 +157,11 @@ function App() {
                 <div class="p-3 service-wrapper border h-100 p-5">
                   <div className="services-item">
                     <div className='d-flex justify-content-center'>
-                      <button class="btn btn-outline-mint rounded-circle d-flex align-items-center justify-content-center p-2 mx-1">
-                        <i class='bx bxs-shopping-bags text-white fs-4' ></i>
-                      </button>
+                      <a className='text-decoration-none' href='/e-commerce-sites'>
+                        <button class="btn btn-outline-mint rounded-circle d-flex align-items-center justify-content-center p-2 mx-1">
+                          <i class='bx bxs-shopping-bags text-white fs-4' ></i>
+                        </button>
+                      </a>
                     </div>
                     <div className='service-title'>
                       <h4 className="services-item-title text-white mt-3">E-commerce Site</h4>
@@ -174,9 +178,11 @@ function App() {
                 <div class="p-3 service-wrapper border h-100 p-5">
                   <div className="services-item">
                     <div className='d-flex justify-content-center'>
-                      <button class="btn btn-outline-mint rounded-circle d-flex align-items-center justify-content-center p-2 mx-1">
-                        <i class='bx bxs-cloud text-white fs-4' ></i>
-                      </button>
+                      <a className='text-decoration-none' href='/website-deployment'>
+                        <button class="btn btn-outline-mint rounded-circle d-flex align-items-center justify-content-center p-2 mx-1">
+                          <i class='bx bxs-cloud text-white fs-4' ></i>
+                        </button>
+                      </a>
                     </div>
                     <div className='service-title'>
                       <h4 className="services-item-title text-white mt-3">Website Deployment</h4>
